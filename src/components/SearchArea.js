@@ -11,17 +11,19 @@ export default ({ handleKeyDown, inputRef }) => {
         <div className="m-5 text-center">
           <h4 className="intro">Get contact information from a name!</h4>
           <h6>Search up to 800,000 records in seconds</h6>
-          <form className="mx-auto mt-5 mb-5 col-xs-12">
-            <input
-              type="text"
-              ref={inputRef}
-              onKeyDown={handleKeyDown}
-              placeholder="Enter a name and hit enter e.g Joseph"
-            />
-            <button className="search" onClick={handleClick}>
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </form>
+          <div className="container">
+            <form className="mx-auto mt-5 mb-5 col-xs-12">
+              <input
+                type="text"
+                ref={inputRef}
+                onKeyDown={handleKeyDown}
+                placeholder="Enter a name and hit enter e.g Joseph"
+              />
+              <button className="search" onClick={handleClick}>
+                <i className="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </SectionWrapper>
@@ -38,7 +40,7 @@ const SectionWrapper = styled.section`
     display: flex;
     flex-direction: row;
     border: 2px solid #dee2e6;
-    width: 40%;
+    width: 400px;
     background: var(--white);
     border-radius: 30px;
     padding: 2px;
