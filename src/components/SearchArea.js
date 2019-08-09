@@ -50,7 +50,9 @@ const SectionWrapper = styled.section`
     background: transparent;
     text-indent: 10px;
   }
-  .button:focus,
+  button:focus {
+    outline: none;
+  }
   input:focus {
     outline: none;
   }
