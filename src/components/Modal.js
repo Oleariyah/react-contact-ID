@@ -34,19 +34,19 @@ export default ({ detail, modalClose }) => {
             <div className="m-3">
               <div className="container-fluid">
                 <div className="row text-left">
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
                     <span className="details">
                       <i class="fa fa-phone mr-2" aria-hidden="true"></i>
                       {detail.cell}
                     </span>
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
                     <span className="details">
                       <i className="fa fa-envelope mr-2" aria-hidden="true"></i>
                       {detail.email}
                     </span>
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
                     <span className="details">
                       <i
                         className="fa fa-location-arrow mr-2"
@@ -61,16 +61,18 @@ export default ({ detail, modalClose }) => {
             <div className="m-3">
               <div className="container">
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
                     <span className="favourite">
                       <i className="fa fa-star-o mr-2" aria-hidden="true"></i>
                       Add to favourites
                     </span>
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
                     <PlainButton>Sign In</PlainButton>
                   </div>
-                  <div className="col-4">to get more information</div>
+                  <div className="col-lg-4 col-sm-12 col-xs-12">
+                    to get more information
+                  </div>
                 </div>
               </div>
             </div>
