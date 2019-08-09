@@ -14,7 +14,7 @@ export default () => {
               </h5>
               <div className="container">
                 <div className="row mb-5">
-                  <div className="col-4 col-xs-12">
+                  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img
                       src="images/how-it-works-1.png"
                       width="200"
@@ -26,7 +26,7 @@ export default () => {
                       <span>Type a name and hit enter to start searching.</span>
                     </div>
                   </div>
-                  <div className="col-4 col-xs-12">
+                  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img
                       src="images/how-it-works-2.png"
                       width="200"
@@ -38,7 +38,7 @@ export default () => {
                       <span>Get instant results with contact details.</span>
                     </div>
                   </div>
-                  <div className="col-4 col-xs-12">
+                  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <img
                       src="images/how-it-works-3.png"
                       width="200"
