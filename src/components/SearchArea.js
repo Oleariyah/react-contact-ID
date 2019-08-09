@@ -40,7 +40,7 @@ const SectionWrapper = styled.section`
     display: flex;
     flex-direction: row;
     border: 2px solid #dee2e6;
-    width: 400px;
+    width: 60%;
     background: var(--white);
     border-radius: 30px;
     padding: 2px;
