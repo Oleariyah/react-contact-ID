@@ -12,7 +12,7 @@ export default () => {
               <strong>How it works.</strong>
             </h5>
             <div className="container">
-              <div className="row mb-5">
+              <div className="row mx-auto mb-5">
                 <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <img
                     src="images/how-it-works-1.png"
