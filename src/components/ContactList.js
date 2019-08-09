@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default ({ detail, handleClick }) => {
   return (
     <DivWrapper>
-      <div className="col-4 m-3 mx-auto ">
+      <div className="col-4 mt-2 ">
         <div className="card" onClick={() => handleClick(detail.id.value)}>
           <div className="container p-3">
             <div className="row">
@@ -12,7 +12,7 @@ export default ({ detail, handleClick }) => {
                 <img
                   className="rounded-circle"
                   src={detail.picture.large}
-                  width="80"
+                  width="60"
                   alt="detail"
                 />
               </div>

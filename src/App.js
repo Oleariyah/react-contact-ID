@@ -82,13 +82,13 @@ export default () => {
     <div>
       <Navbar />
       <SearchArea handleKeyDown={handleKeyDown} inputRef={inputRef} />
+      {state.query !== "" ? (
+        <div className="container">
+          <div className="m-5">Top result for "{`${state.query}`}"</div>
+        </div>
+      ) : null}
       <div className="container-fluid">
-        <div className="row">
-          {state.query !== "" ? (
-            <div className="container">
-              <div className="m-5">Top result for "{`${state.query}`}"</div>
-            </div>
-          ) : null}
+        <div className="row ml-5 mr-5">
           {state.loading === false ? (
             state.data.map((detail, index) => {
               return (
@@ -100,9 +100,7 @@ export default () => {
               );
             })
           ) : (
-            <div className="container">
-              <Loader />
-            </div>
+            <Loader />
           )}
         </div>
       </div>
