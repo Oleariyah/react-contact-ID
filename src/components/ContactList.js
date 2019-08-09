@@ -4,9 +4,9 @@ import styled from "styled-components";
 export default ({ detail, handleClick }) => {
   return (
     <DivWrapper>
-      <div classNAme="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-4 col-xs-12 col-sm-12 mt-2 m-2">
+          <div className="col-lg-4 col-xs-12 col-sm-12 mt-2">
             <div className="card" onClick={() => handleClick(detail.id.value)}>
               <div className="container p-3">
                 <div className="row">
@@ -19,7 +19,7 @@ export default ({ detail, handleClick }) => {
                     />
                   </div>
                   <div className="col-7">
-                    <div class="card-body">
+                    <div className="card-body">
                       <h6>
                         {detail.name.title} {detail.name.first}{" "}
                         {detail.name.last}{" "}
