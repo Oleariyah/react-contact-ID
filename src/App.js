@@ -82,7 +82,7 @@ export default () => {
     <div>
       <Navbar />
       <SearchArea handleKeyDown={handleKeyDown} inputRef={inputRef} />
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           {state.query !== "" ? (
             <div className="container">
