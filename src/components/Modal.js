@@ -22,7 +22,7 @@ export default ({ detail, modalClose }) => {
                 alt="detail"
               />
             </div>
-            <div className="m-5">
+            <div className="m-3">
               <h6>
                 {detail.name.first} {detail.name.last}
               </h6>
@@ -113,12 +113,12 @@ const ModalContainer = styled.div`
 
   .avatar {
     position: absolute;
-    top: 50%;
     left: 50%;
-    width: 500px;
-    height: 500px;
-    margin-top: -250px;
-    margin-left: -250px;
+    margin-top: -125px;
+    margin-left: -125px;
+    top: 15%;
+    width: 250px;
+    height: 250px;
   }
   .details {
     font-size: 12px;
