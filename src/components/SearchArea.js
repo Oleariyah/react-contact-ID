@@ -50,7 +50,8 @@ const SectionWrapper = styled.section`
     background: transparent;
     text-indent: 10px;
   }
-  .button:focus input:focus {
+  .button:focus,
+  input:focus {
     outline: none;
   }
   .search {
