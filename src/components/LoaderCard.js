@@ -5,7 +5,7 @@ import styled from "styled-components";
 export default () => {
   return (
     <DivWrapper>
-      <div classNAme="container">
+      <div className="container">
         <div className="row">
           <div className="col-lg-4 col-xs-12 col-sm-12 mt-2">
             <div className="card p-3">
