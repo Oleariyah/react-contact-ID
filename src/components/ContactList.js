@@ -6,7 +6,7 @@ export default ({ detail, handleClick }) => {
     <DivWrapper>
       <div classNAme="container">
         <div className="row">
-          <div className="col-lg-4 col-xs-12 col-sm-12 mt-2 m-3">
+          <div className="col-lg-4 col-xs-12 col-sm-12 mt-2 m-2">
             <div className="card" onClick={() => handleClick(detail.id.value)}>
               <div className="container p-3">
                 <div className="row">

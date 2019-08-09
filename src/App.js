@@ -88,7 +88,7 @@ export default () => {
         </div>
       ) : null}
       <div className="container-fluid">
-        <div className="row ml-5 mr-5">
+        <div className="row justify-content-center">
           {state.loading === false ? (
             state.data.map((detail, index) => {
               return (
