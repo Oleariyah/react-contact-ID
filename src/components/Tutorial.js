@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default () => {
   return (
     <SectionWrapper>
-      <img src="images/bg-path.svg" alt="bg" className="svg-bg d-xs-none" />
+      <img src="images/bg-path.svg" alt="bg" className="svg-bg" />
       <div className="container">
         <div className="card">
           <div className="card-body text-center">

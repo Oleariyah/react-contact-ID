@@ -113,8 +113,12 @@ const ModalContainer = styled.div`
 
   .avatar {
     position: absolute;
-    top: -50px;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
   }
   .details {
     font-size: 12px;
