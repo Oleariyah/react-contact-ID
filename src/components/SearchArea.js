@@ -40,7 +40,7 @@ const SectionWrapper = styled.section`
     display: flex;
     flex-direction: row;
     border: 2px solid #dee2e6;
-    width: 50%;
+    width: 60%;
     background: var(--white);
     border-radius: 30px;
     padding: 2px;
@@ -48,7 +48,7 @@ const SectionWrapper = styled.section`
   input {
     flex-grow: 2;
     height: 40px;
-    width: 50%;
+    width: 60%;
     border: none;
     background: transparent;
     text-indent: 10px;

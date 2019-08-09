@@ -8,7 +8,7 @@ export default () => {
     <SectionWrapper>
       <div className="container">
         <div className="row mt-5">
-          <div className="col-6 col-xs-12 mt-5 py-5">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 py-5">
             <h4>
               <strong>Need more information on contact?</strong>
             </h4>
@@ -24,7 +24,7 @@ export default () => {
             <br />
             <SecondaryButton>Get Started</SecondaryButton>
           </div>
-          <div className="col-6 col-xs-12 mt-5">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
             <img
               className="img-fluid"
               src="images/demo-content.png"
